@@ -28,7 +28,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'virclassroom.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','toddlclassroom.herokuapp.com']
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
